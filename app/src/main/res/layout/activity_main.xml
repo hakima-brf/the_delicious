@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ba"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="false"
+
+        android:foreground="#9E000000"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/imageView2"
+        android:layout_width="362dp"
+        android:layout_height="138dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="The Delicious"
+        android:textColor="@color/yellow"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="   Make your own Plates"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="260dp"
+        android:layout_height="38dp"
+
+        android:layout_marginBottom="12dp"
+        android:fontFamily="serif-monospace"
+        android:text="Cook at home"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="serif-monospace"
+        android:text="Stay safe"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.732"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="12dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFDFD"
+        android:drawableLeft="@drawable/email"
+        android:ems="10"
+        android:hint="  email"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        android:textColor="@color/blue1"
+        android:textColorHint="@color/blue2"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/password"
+        android:ems="10"
+        android:hint="  password"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textColor="@color/blue1"
+        android:textColorHint="@color/blue2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/sign_in_btn_main_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+    <Button
+        android:id="@+id/sign_in_btn_main_view"
+        android:layout_width="133dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="16dp"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Click here to sign up if you don't have an account!"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/sighup_btn_main_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/sighup_btn_main_view"
+        android:layout_width="133dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="32dp"
+        android:text="Sign up"
+        android:textAllCaps="false"
+
+        app:cornerRadius="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/guest_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/guest_btn"
+        android:layout_width="287dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="24dp"
+        android:text="get started as guest"
+        app:cornerRadius="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textStyle="bold"
+
+        android:backgroundTint="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

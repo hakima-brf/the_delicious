@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "709608222626",
+    "firebase_url": "https://salty-9f4fd-default-rtdb.firebaseio.com",
+    "project_id": "salty-9f4fd",
+    "storage_bucket": "salty-9f4fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709608222626:android:ba827b8ecc011f5bf90cfb",
+        "android_client_info": {
+          "package_name": "com.example.atyabtabkha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709608222626-e5vefuars2k7f3r4tndp1fbpag38dovu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKBKpTGss1HAun8T4RTmOpLxGNDwtDuh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709608222626-e5vefuars2k7f3r4tndp1fbpag38dovu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
