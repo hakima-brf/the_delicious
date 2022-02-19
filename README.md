@@ -1,6 +1,6 @@
 ## the_delicious
 the delicious is a recipes app that is similar to instagram but in terms of food recipes.they have the same principle.the user can log in and publish the recipes with others users. the users can follow each others and save others recipes and even like them.
-in this project is made by kotlin and firebase to store our data there and retreive it any time.
+this project is made by kotlin and firebase to store our data there and retreive it any time.
 
 ## home page:
 
